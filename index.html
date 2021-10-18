@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name=description content="Somos uma agência de Marketing Digital e inovação. Entre nossos serviços principais estão a criação de sites responsivos, criação de aplicativos para IOS e Android, gestão de redes sociais, SEO, adwords entre outros. Clique e saiba mais sobre como podemos ajudá-lo a gerar resultados."
+    />
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta property=og:image content="img/logo.svg" />
+    <link rel=icon href=favicon.ico type="image/x-icon" />
+    <meta property=og:site_name content="HIT MARKETING DIGITAL" />
+    <meta property=og:title content="Hit Marketing Digital - Criação de Sites, Aplicativos e Performance Digital" />
+
+    <!-- titulo -->
+    <title>Front End Challanger - Hit Digital</title>
+    <!-- estilos -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+
+<body>
+    <header class="logo">
+        <img src="img/logo.svg" alt="Hit Marketing Digital" width="130">
+    </header>
+    <main>
+        <section class="container">
+            <div>
+                <button class="btn orange" onclick="show('introducao');">Introdução</button>
+                <button class="btn orange" onclick="show('contato');">Contato</button>
+            </div>
+            <div id="introducao">
+                <h1>Introdução</h1>
+                <hr>
+                <div class="back">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facere magnam aperiam dolor quibusdam ipsa eveniet obcaecati excepturi necessitatibus iusto molestias maxime architecto officiis quos illum laborum, soluta, tempora commodi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facere magnam aperiam dolor quibusdam ipsa eveniet obcaecati excepturi necessitatibus iusto molestias maxime architecto officiis quos illum laborum, soluta, tempora
+                        commodi.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facere magnam aperiam dolor quibusdam ipsa eveniet obcaecati excepturi necessitatibus iusto molestias maxime architecto officiis quos illum laborum, soluta, tempora commodi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facere magnam aperiam dolor quibusdam ipsa eveniet obcaecati excepturi necessitatibus iusto molestias maxime architecto officiis quos illum laborum, soluta, tempora
+                        commodi.
+                    </p>
+                </div>
+            </div>
+            <div id="contato" style="display: none;">
+                <h1>Contato</h1>
+                <hr>
+                <div class="wat">
+                    <form action="">
+                        <div class="grupo">
+                            <input name="nome" type="text" placeholder="Nome*" class="campo-medio">
+                        </div>
+                        <div class="grupo">
+                            <input name="email" type="text" placeholder="E-mail*" class="campo-medio">
+                        </div>
+                        <div class="grupolarge">
+                            <textarea name="message" type="text" placeholder="Mensagem*" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn black" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
